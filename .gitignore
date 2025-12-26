@@ -1,0 +1,31 @@
+# Root ignore
+backend/.env
+**/__pycache__/
+*.pyc
+
+# Node/Vite/React
+node_modules/
+dist/
+.cache/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS / misc
+Thumbs.db
+*.tmp
+*.bak
+
+# Coverage
+coverage/
+.nyc_output/
